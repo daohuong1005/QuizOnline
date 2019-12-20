@@ -15,13 +15,29 @@ namespace QuizOnlineDatabase
         public int Id { get; set; }
         [Required]
         [MaxLength(50)]
-        public string UseName { get; set; }
+        public string UserName { get; set; }
         [Required]
         [MaxLength(50)]
-        public string Password { get; set; }
+        public byte[] PasswordHash { get; set; }
         [Required]
+        [MaxLength(50)]
+        public byte[] PasswordSalt { get; set; }
+       
+        [Required]
+        [MaxLength(256)]
+        public string FirstName { get; set; }
+        [Required]
+        [MaxLength(256)]
+        public string LastName { get; set; }
+
+        [MaxLength(256)]
+        public string Address { get; set; }
+
         [MaxLength(15)]
         public string PhoneNumber { get; set; }
+
+        [MaxLength(50)]
+        public string Gmail { get; set; }
         [Required]
         public Rank Rank { get; set; }
         [Required]

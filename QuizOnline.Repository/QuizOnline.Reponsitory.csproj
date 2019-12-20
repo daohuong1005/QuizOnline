@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuizOnline.Common\QuizOnline.Common.csproj" />
+    <ProjectReference Include="..\QuizOnline.Domain\QuizOnline.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

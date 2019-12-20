@@ -25,18 +25,35 @@ namespace QuizOnline.Domain.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Address")
+                        .HasMaxLength(256);
+
                     b.Property<string>("CreatedBy");
 
                     b.Property<DateTime>("CreatedDate");
 
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(256);
+
+                    b.Property<string>("Gmail")
+                        .HasMaxLength(50);
+
                     b.Property<bool>("IsDeleted");
 
-                    b.Property<string>("Password")
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(256);
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasMaxLength(50);
+
+                    b.Property<string>("PasswordSalt")
                         .IsRequired()
                         .HasMaxLength(50);
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasMaxLength(15);
 
                     b.Property<int>("Rank");
@@ -47,7 +64,7 @@ namespace QuizOnline.Domain.Migrations
 
                     b.Property<DateTime?>("UpdatedDate");
 
-                    b.Property<string>("UseName")
+                    b.Property<string>("UserName")
                         .IsRequired()
                         .HasMaxLength(50);
 
@@ -223,18 +240,27 @@ namespace QuizOnline.Domain.Migrations
                     b.Property<int>("Id");
 
                     b.Property<string>("Address")
-                        .IsRequired()
-                        .HasMaxLength(156);
+                        .HasMaxLength(256);
 
                     b.Property<string>("CreatedBy");
 
                     b.Property<DateTime>("CreatedDate");
 
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(256);
+
+                    b.Property<string>("Gmail")
+                        .HasMaxLength(50);
+
                     b.Property<bool>("IsDeleted");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("LastName")
                         .IsRequired()
-                        .HasMaxLength(50);
+                        .HasMaxLength(256);
+
+                    b.Property<string>("PhoneNumber")
+                        .HasMaxLength(15);
 
                     b.Property<int>("Status");
 
@@ -320,18 +346,27 @@ namespace QuizOnline.Domain.Migrations
                     b.Property<int>("Id");
 
                     b.Property<string>("Address")
-                        .IsRequired()
-                        .HasMaxLength(156);
+                        .HasMaxLength(256);
 
                     b.Property<string>("CreatedBy");
 
                     b.Property<DateTime>("CreatedDate");
 
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(256);
+
+                    b.Property<string>("Gmail")
+                        .HasMaxLength(50);
+
                     b.Property<bool>("IsDeleted");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("LastName")
                         .IsRequired()
-                        .HasMaxLength(50);
+                        .HasMaxLength(256);
+
+                    b.Property<string>("PhoneNumber")
+                        .HasMaxLength(15);
 
                     b.Property<int>("Status");
 
@@ -439,8 +474,8 @@ namespace QuizOnline.Domain.Migrations
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("QuizOnlineDatabase.TestSubject")
-                        .WithMany("Takes")
+                    b.HasOne("QuizOnlineDatabase.TestSubject", "TestSubject")
+                        .WithMany()
                         .HasForeignKey("TestSubjectId");
                 });
 

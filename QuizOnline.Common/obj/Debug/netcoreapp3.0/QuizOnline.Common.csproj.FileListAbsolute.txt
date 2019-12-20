@@ -1,0 +1,8 @@
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Common\bin\Debug\netcoreapp3.0\QuizOnline.Common.deps.json
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Common\bin\Debug\netcoreapp3.0\QuizOnline.Common.dll
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Common\bin\Debug\netcoreapp3.0\QuizOnline.Common.pdb
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Common\obj\Debug\netcoreapp3.0\QuizOnline.Common.csprojAssemblyReference.cache
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Common\obj\Debug\netcoreapp3.0\QuizOnline.Common.AssemblyInfoInputs.cache
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Common\obj\Debug\netcoreapp3.0\QuizOnline.Common.AssemblyInfo.cs
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Common\obj\Debug\netcoreapp3.0\QuizOnline.Common.dll
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Common\obj\Debug\netcoreapp3.0\QuizOnline.Common.pdb

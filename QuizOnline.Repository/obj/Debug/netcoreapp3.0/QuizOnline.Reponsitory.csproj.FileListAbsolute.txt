@@ -1,0 +1,13 @@
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\obj\Debug\netcoreapp3.0\QuizOnline.Reponsitory.csprojAssemblyReference.cache
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\obj\Debug\netcoreapp3.0\QuizOnline.Reponsitory.AssemblyInfoInputs.cache
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\obj\Debug\netcoreapp3.0\QuizOnline.Reponsitory.AssemblyInfo.cs
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\bin\Debug\netcoreapp3.0\QuizOnline.Reponsitory.deps.json
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\bin\Debug\netcoreapp3.0\QuizOnline.Reponsitory.dll
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\bin\Debug\netcoreapp3.0\QuizOnline.Reponsitory.pdb
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\bin\Debug\netcoreapp3.0\QuizOnline.Domain.dll
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\bin\Debug\netcoreapp3.0\QuizOnline.Domain.pdb
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\obj\Debug\netcoreapp3.0\QuizOnline.Reponsitory.csproj.CopyComplete
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\obj\Debug\netcoreapp3.0\QuizOnline.Reponsitory.dll
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\obj\Debug\netcoreapp3.0\QuizOnline.Reponsitory.pdb
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\bin\Debug\netcoreapp3.0\QuizOnline.Common.dll
+E:\Trung Tâm T3H\DoAn\QuizOnline\QuizOnline.Repository\bin\Debug\netcoreapp3.0\QuizOnline.Common.pdb
